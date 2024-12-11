@@ -7,7 +7,7 @@ import re
 import pandas as pd
 
 # Load the model
-with open("/workspaces/bus458-app/data_science_salary.pkl", 'rb') as file:
+with open("data_science_salary.pkl", 'rb') as file:
     loaded_model = pickle.load(file)
 
 # Function to make the salary prediction
